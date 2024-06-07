@@ -1,0 +1,123 @@
+@use '/src/styles/base/variables' as v;
+@use '/src/styles/base/mixins' as m;
+
+.widget {
+    width: 30rem;
+    border-radius: 8px;
+
+    @include m.tablet {
+        min-width: 50rem;
+    }
+
+
+    &__about{
+      position: relative;
+      display: flex;
+      justify-content: center;
+    }
+
+    &__buttom {
+        padding: 1rem 1rem;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        font-family: v.$fuenteSecundaria;
+        font-weight: 400;
+        display: block;
+        cursor: pointer;
+        background: transparent;
+        color: v.$secundario;
+        border: 0;
+        transition: 0.3s;
+
+        @include m.tablet {
+            font-size: 1.8rem;
+            padding: 1rem 2rem;
+        }
+
+        &:not(.active) {
+            opacity: 0.7;
+          }
+
+        &:hover:not(.active) {
+        opacity: 1;
+        }
+
+        
+      }
+      &__content {
+        position: relative;
+        overflow: hidden;
+        height: 35rem;
+
+        &__inner {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            align-items: start;
+            width: calc( 30rem * 3);
+            transition: 0.3s;
+
+            @include m.tablet {
+                width: calc( 50rem * 3);
+            }
+        }
+
+        &__div {
+            width: inherit;
+            padding: 20px;
+            
+        }
+
+        &__text {
+        font-family: v.$fuenteSecundaria;
+        color: v.$grisOscuro;
+        font-size: 1.2rem;
+        line-height: 1.8;
+
+        @include m.tablet {
+            font-size: 1.8rem;
+        }
+        }
+      }
+    
+      &__underline {
+            position: absolute;
+            left: 2.35rem;
+            bottom: 0;
+            width: 4rem;
+            height: 3px;
+            background: v.$primario;
+            transition: 0.2s;
+          
+            @include m.tablet {
+                left: 7.6rem;
+                width: 5rem;
+          }
+      }
+
+      &__logos {
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        max-width: 40rem;
+        
+        
+        @include m.desktop {
+            margin-top: 3rem;
+           
+        }
+
+        &__img {
+            height: 3rem;
+
+            @include m.desktop {
+                height: 4rem;
+
+            }
+        }
+    }
+
+}

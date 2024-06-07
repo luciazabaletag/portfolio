@@ -1,0 +1,360 @@
+@use '/src/styles/base/variables' as v;
+@use '/src/styles/base/mixins' as m;
+
+.header {
+    position: relative;
+    margin-bottom: 15rem;
+    
+    &__imgrecta {
+        
+        display: none;
+        
+        @include m.desktop {
+            max-width: 7rem;
+            position: absolute;
+            margin-top: 4rem;
+            z-index: 2;
+            display: block;
+        }
+        
+    }
+    &__circlesleft {
+    
+        display: none;
+        
+        @include m.desktop {
+            max-width: 7rem;
+            position: absolute;
+            left: 15rem;
+            top: 8rem;
+            z-index: 3;
+            display: block;
+            opacity: .2;
+        }
+        
+    }
+
+    .info {
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @include m.tablet {
+            margin-top: 5rem;
+        }
+
+        @include m.desktop { 
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            margin-top: 5rem;
+        }
+
+        &__btn {
+            background-color: v.$primario;
+            padding: 1rem 3rem;
+            margin-top: 1rem;
+            color: white;
+            text-transform: uppercase;
+            font-size: 1.5rem;
+            border-style: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color .3s ease;
+            
+            &:hover {
+                background-color: #dd5f47;
+            }
+
+            @include m.tablet {
+                padding: 1.2rem 3rem;
+            }
+
+        } //aca termine btn
+
+        &__text {
+                color: v.$secundario;
+                font-style: italic;
+                font-weight: 900;
+                margin: 0;
+
+                &:nth-child(1) {
+                    font-size: 2.5rem;
+                }
+                &:nth-child(2) {
+                    font-size: 3.5rem;
+                }
+                &:nth-child(3) {
+                    font-size: 2rem;
+                    font-weight: 700;
+                }
+            
+            @include m.tablet {
+                &:nth-child(1) {
+                    font-size: 4rem;
+                }
+                &:nth-child(2) {
+                    font-size: 5rem;
+                }
+                &:nth-child(3) {
+                    font-size: 3rem;
+                    font-weight: 700;
+                }
+            }
+
+            @include m.desktop {
+
+                &:nth-child(1) {
+                    font-size: 4.5rem;
+                }
+                &:nth-child(2) {
+                    font-size: 5.5rem;
+                }
+                &:nth-child(3) {
+                    font-size: 3rem;
+                    font-weight: 700;
+                }
+            }
+        } //aca termina p
+
+        &__img {      
+            min-width: 30rem;
+            margin-top: 5rem;
+            padding: 0 1rem;
+            
+                @include m.telefono {
+                width: 100%;
+            }
+            @include m.tablet {
+                padding: 0 5rem;
+                min-width: 50rem;
+                }
+            @include m.desktop {
+                
+                min-width: 60rem;
+                margin-top: 0;
+            }
+        
+        } //aca termina img
+
+        &__icons {
+    
+                display: flex;
+                justify-content: center;
+                gap: 5rem;
+                margin-top: 10rem;
+                
+                @include m.telefono {
+                    margin-top: 5rem;
+                }
+                
+                @include m.desktop {
+                    position: absolute;
+                    margin-bottom: -35rem;
+                    margin-left: 13rem;
+                }
+                
+                &__a {
+                    transition: transform .1s ease;
+        
+                    &:hover {
+                        transform: scale(1.1)
+                        
+                    }
+                }
+                &__img {
+                    width: 3rem;
+                    height: 3rem;
+                }
+            } // aca termina icons
+     
+    } //aca termina info
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//         p {
+//                 color: v.$secundario;
+//                 font-style: italic;
+//                 font-weight: 900;
+//                 line-height: 0;
+                
+   
+//                 &:nth-child(1) {
+//                     font-size: 2.5rem;
+//                 }
+//                 &:nth-child(2) {
+//                     font-size: 3.5rem;
+//                 }
+//                 &:nth-child(3) {
+//                     font-size: 2rem;
+//                     font-weight: 700;
+//                 }
+            
+//             @include m.tablet {
+//                 &:nth-child(1) {
+//                     font-size: 4rem;
+//                 }
+//                 &:nth-child(2) {
+//                     font-size: 5rem;
+//                 }
+//                 &:nth-child(3) {
+//                     font-size: 3rem;
+//                     font-weight: 700;
+//                 }
+//             }
+
+//             @include m.desktop {
+
+//                 &:nth-child(1) {
+//                     font-size: 4.5rem;
+//                 }
+//                 &:nth-child(2) {
+//                     font-size: 5.5rem;
+//                 }
+//                 &:nth-child(3) {
+//                     font-size: 3rem;
+//                     font-weight: 700;
+//                 }
+//             }
+//         }
+        
+
+//         &__btn {
+//             background-color: v.$primario;
+//             padding: 1rem 3rem;
+//             color: white;
+//             text-transform: uppercase;
+//             font-size: 1.5rem;
+//             border-style: none;
+//             border-radius: 10px;
+//             cursor: pointer;
+//             transition: background-color .3s ease;
+            
+//             &:hover {
+//                 background-color: #dd5f47;
+//             }
+
+//             @include m.tablet {
+//                 padding: 1.5rem 4rem;
+//             }
+            
+            
+//         }
+        
+//         .img-index {
+//             min-width: 40rem;
+//             margin-top: 5rem;
+//             padding: 0 1rem;
+            
+//              @include m.telefono {
+//                 width: 100%;
+//                 padding: 0 5rem;
+//              }
+//              @include m.tablet {
+//                 min-width: 50rem;
+//              }
+//             @include m.desktop {
+                
+//                 min-width: 60rem;
+//                 margin-top: 0;
+//             }
+//         }
+
+        
+//     }
+   
+    
+//     .img-recta {
+//         display: none;
+        
+//         @include m.desktop {
+//             max-width: 7rem;
+//             position: absolute;
+//             margin-top: 4rem;
+//             z-index: 2;
+//             display: block;
+//         }
+//     }
+//     &__circles {
+//         display: none;
+        
+//         @include m.desktop {
+//             max-width: 7rem;
+//             position: absolute;
+//             right: 15rem;
+//             top: 18rem;
+//             z-index: 3;
+//             display: block;
+            
+//         }
+//     }
+//     &__circlesleft {
+//         display: none;
+        
+//         @include m.desktop {
+//             max-width: 7rem;
+//             position: absolute;
+//             left: 15rem;
+//             top: 8rem;
+//             z-index: 3;
+//             display: block;
+//             opacity: .2;
+//         }
+//     }
+//     .header-contact {   
+//         display: flex;
+//         justify-content: center;
+//         gap: 5rem;
+//         margin-top: 10rem;
+        
+//         .icons-contact {
+//             transition: transform .1s ease;
+
+//             &:hover {
+//                 transform: scale(1.1)
+                
+//             }
+//         }
+
+        
+//         img {
+//             width: 3rem;
+//             height: 3rem;
+//         }
+
+//         @include m.telefono {
+//             margin-top: 5rem;
+//         }
+
+//         @include m.desktop {
+//             position: absolute;
+//             margin-bottom: -35rem;
+//             margin-left: 13rem;
+//         }
+//     }
+
+// }
