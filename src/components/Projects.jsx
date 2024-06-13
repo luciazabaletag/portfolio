@@ -19,8 +19,8 @@ const Projects = () => {
                 img1={<ImagesLogosCard src={"src/assets/logos/tailwindcss.svg"} alt='logo tailwind css'/>}
                 img2={<ImagesLogosCard src={"src/assets/logos/typescript.svg"} alt='logo typescript'/>}
                 img3={<ImagesLogosCard src={"src/assets/logos/mongodb.svg"} alt='logo mongodb'/>}
-                project="#"
-                code="#"
+                project="https://admin-task-zeta.vercel.app/"
+                code="https://github.com/luciazabaletag/admin-task"
             />
 
             <ProjectCard 
@@ -31,8 +31,8 @@ const Projects = () => {
                 srcImgP="src/assets/img/finadesign.webp"
                 img={<ImagesLogosCard src={"src/assets/logos/reactjs.svg"} alt='logo reactjs'/>}
                 img1={<ImagesLogosCard src={"src/assets/logos/tailwindcss.svg"} alt='logo tailwind css'/>}
-                project="#"
-                code="#"
+                project="https://finadesign.netlify.app/"
+                code="https://github.com/luciazabaletag/fina-design"
             />
             
             <ProjectCard 
@@ -42,8 +42,8 @@ const Projects = () => {
                 srcImgP="src/assets/img/weatherapp.webp"
                 img={<ImagesLogosCard src={"src/assets/logos/reactjs.svg"} alt='logo reactjs'/>}
                 img1={<ImagesLogosCard src={"src/assets/logos/tailwindcss.svg"} alt='logo tailwind css'/>}
-                project="#"
-                code="#"
+                project="https://lzweatherapp.netlify.app/"
+                code="https://github.com/luciazabaletag/weather-app"
             />
             
         </div>
