@@ -31,8 +31,8 @@ const About = () => {
                 <h1 className='about__title title'>Sobre mi</h1>
                 <div className='about__container'>
                     <div className='about__images'>
-                        <img className='about__image' src='src/assets/img/img2.webp' alt='chica sobre mi' />
-                        <img className='about__icon' src='src/assets/img/puntoshori.svg' alt='circulos sobre mi' />
+                        <img className='about__image' src='/img/img2.webp' alt='chica sobre mi' />
+                        <img className='about__icon' src='/img/puntoshori.svg' alt='circulos sobre mi' />
                     </div>
                     <div className='about__text'>
                         <AboutContent />

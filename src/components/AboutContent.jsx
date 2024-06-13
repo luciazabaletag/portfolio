@@ -57,18 +57,18 @@ useEffect(() => {
             Poseo grandes habilidades en HTML, CSS, JavaScript, TypeScript, React js, Next js, Tailwind CSS, Boostrap y SASS. Además de un amplio conocimiento en Express js, Node js, React Redux, Mongodb, Git, Jest, React Testing Library y Cypress.
             </p>
                 <div className='widget__logos'>
-                        <img className='widget__logos__img' src='src/assets/logos/html.svg' alt='logo html' />
-                        <img className='widget__logos__img' src='src/assets/logos/css.svg' alt='logo css' />
-                        <img className='widget__logos__img' src='src/assets/logos/javascript.svg' alt='logo html' />
-                        <img className='widget__logos__img' src='src/assets/logos/typescriptc.svg' alt='logo typescript' />
-                        <img className='widget__logos__img' src='src/assets/logos/reactjs.svg' alt='logo react' />
-                        <img className='widget__logos__img' src='src/assets/logos/nextjsl.svg' alt='logo nextjs' />
-                        <img className='widget__logos__img' src='src/assets/logos/tailwindcss.svg' alt='logo tailwind css' />
-                        <img className='widget__logos__img' src='src/assets/logos/bootstrap.svg' alt='logo bootstrap' />
-                        <img className='widget__logos__img' src='src/assets/logos/sass.svg' alt='logo sass' />
-                        <img className='widget__logos__img' src='src/assets/logos/git.svg' alt='logo git' />
-                        <img className='widget__logos__img' src='src/assets/logos/photoshop.svg' alt='logo photoshop' />
-                        <img className='widget__logos__img' src='src/assets/logos/illustrator.svg' alt='logo illustrator' />
+                        <img className='widget__logos__img' src='/logos/html.svg' alt='logo html' />
+                        <img className='widget__logos__img' src='/logos/css.svg' alt='logo css' />
+                        <img className='widget__logos__img' src='/logos/javascript.svg' alt='logo html' />
+                        <img className='widget__logos__img' src='/logos/typescriptc.svg' alt='logo typescript' />
+                        <img className='widget__logos__img' src='/logos/reactjs.svg' alt='logo react' />
+                        <img className='widget__logos__img' src='/logos/nextjsl.svg' alt='logo nextjs' />
+                        <img className='widget__logos__img' src='/logos/tailwindcss.svg' alt='logo tailwind css' />
+                        <img className='widget__logos__img' src='/logos/bootstrap.svg' alt='logo bootstrap' />
+                        <img className='widget__logos__img' src='/logos/sass.svg' alt='logo sass' />
+                        <img className='widget__logos__img' src='/logos/git.svg' alt='logo git' />
+                        <img className='widget__logos__img' src='/logos/photoshop.svg' alt='logo photoshop' />
+                        <img className='widget__logos__img' src='/logos/illustrator.svg' alt='logo illustrator' />
                 </div>
           </div>
           <div className="widget__content__div">

@@ -8,19 +8,19 @@ const Contact = () => {
         <div className='contact__container container'>
             <div className='contact__content'>
                 <div className='contact__img'>
-                    <img className='contact__ilus' src='src/assets/img/iluscontacto.svg' alt='imagen contacto'/>
+                    <img className='contact__ilus' src='/img/iluscontacto.svg' alt='imagen contacto'/>
                 </div>
                 <div className='contact__info'>
                     <div className='contact__info__des'>
-                        <img className='contact__info__img' src='src/assets/img/emailnara.svg' alt='imagen mail'/>
+                        <img className='contact__info__img' src='/img/emailnara.svg' alt='imagen mail'/>
                         <p className='contact__info__p'>luciazabaletag@gmail.com</p>
                     </div>
                     <div className='contact__info__des'>
-                        <img className='contact__info__img' src='src/assets/img/iconolinkedinnara.svg' alt='imagen linkedin'/>
+                        <img className='contact__info__img' src='/img/iconolinkedinnara.svg' alt='imagen linkedin'/>
                         <p className='contact__info__p'>luciazabaletagirod</p>
                     </div>
                     <div className='contact__info__des'>
-                        <img className='contact__info__img' src='src/assets/img/githubnara.svg' alt='imagen github'/>
+                        <img className='contact__info__img' src='/img/githubnara.svg' alt='imagen github'/>
                         <p className='contact__info__p'>luciazabaletag</p>
                     </div>
                     

@@ -44,7 +44,7 @@
                 &::before {
                     content: "";
                     display: block;
-                    background-image: url('src/assets/img/fondoproject.svg');
+                    background-image: url('/img/fondoproject.svg');
                     background-repeat: no-repeat;
                     min-width: 50rem;
                     min-height: 50rem;
@@ -61,7 +61,7 @@
                 &::before {
                     content: "";
                     display: block;
-                    background-image: url('src/assets/img/fondoproject.svg');
+                    background-image: url('/img/fondoproject.svg');
                     background-repeat: no-repeat;
                     min-width: 50rem;
                     min-height: 50rem;
@@ -177,8 +177,8 @@
                 &::after {
                     content: "";
                     background-color: v.$blanco;
-                    -webkit-mask-image: url('src/assets/img/navigate.svg');
-                    mask-image: url('src/assets/img/navigate.svg');
+                    -webkit-mask-image: url('/img/navigate.svg');
+                    mask-image: url('/img/navigate.svg');
                     margin-right: 1rem;
                     position: absolute;
                     left: 80%;
@@ -216,7 +216,7 @@
 
             &::after {
                 content: "";
-                mask: url('src/assets/img/githubbtn.svg');
+                mask: url('/img/githubbtn.svg');
                 mask-repeat: no-repeat;
                 mask-size: 80%;
                 background-color: v.$primario;

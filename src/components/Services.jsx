@@ -26,7 +26,7 @@ cards.forEach( card => { observer.observe(card) });
 
   return (
     <section id="servicesid" className='services'>
-        <img className='services__wavetop' src='src/assets/img/waveorangetop.svg' alt='wave arriba'/>
+        <img className='services__wavetop' src='/img/waveorangetop.svg' alt='wave arriba'/>
             <div className='services__container'>
                 <div className=' container'>
 
@@ -37,26 +37,26 @@ cards.forEach( card => { observer.observe(card) });
 
                 <div className='services__grid'>
                     <div className='services__card'>
-                        <img className='services__card__image' src='src/assets/img/disenio.svg' alt='diseño web'/>
+                        <img className='services__card__image' src='/img/disenio.svg' alt='diseño web'/>
                         <p className='services__card__title'>Diseño web</p>
                         <p className='services__card__description'>Creo diseños únicos, visualmente atractivos y fáciles de navegar, para crear una experiencia estéticamente agradable para el usuario.</p>
                     </div>
 
                     <div className='services__card'>
-                        <img className='services__card__image' src='src/assets/img/desarrollo.svg' alt='desarrollo app'/>
+                        <img className='services__card__image' src='/img/desarrollo.svg' alt='desarrollo app'/>
                         <p className='services__card__title'>Desarrollo App</p>
                         <p className='services__card__description'>Contruyo una aplicacion web, con una funcionalidad potente e innovadora, utilizando las últimas tecnologías, desarrollando interfaces de alto rendimiento.  </p>
                     </div>
 
                     <div className='services__card'>
-                        <img className='services__card__image' src='src/assets/img/pantalla.svg' alt='optimizacion web' />
+                        <img className='services__card__image' src='/img/pantalla.svg' alt='optimizacion web' />
                         <p className='services__card__title'>Optimización</p>
                         <p className='services__card__description'>Me aseguro de que su sitio web ofrezca una gran experiencia de usuario, sea cual sea el tamaño de la pantalla en la que se muestre, además de optimizar su front-end para ofrecer tiempos de carga más rápidos.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <img className='services__wavebottom' src='src/assets/img/waveorangebottom.svg' alt='wave abajo'/>
+        <img className='services__wavebottom' src='/img/waveorangebottom.svg' alt='wave abajo'/>
     </section>
   )
 }
