@@ -54,7 +54,7 @@ useEffect(() => {
           </div>
           <div className="widget__content__div">
             <p className="widget__content__text">
-            Poseo grandes habilidades en HTML, CSS, JavaScript, TypeScript, React js, Next js, Tailwind CSS, Boostrap y SASS. Además de un amplio conocimiento en Express js, Node js, React Redux, Mongodb, Git, Jest, React Testing Library y Cypress.
+            Poseo grandes habilidades en HTML, CSS, JavaScript, TypeScript, React js, Next js, Tailwind CSS, Bootstrap y SASS. Además de un amplio conocimiento en Express js, Node js, React Redux, Mongodb, Git, Jest, React Testing Library y Cypress.
             </p>
                 <div className='widget__logos'>
                         <img className='widget__logos__img' src='/logos/html.svg' alt='logo html' />
