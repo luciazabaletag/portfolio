@@ -28,7 +28,7 @@ const Contact = () => {
 
             </div>
         </div>
-        <p className='contact__copyright'>2024 - Todos los derechos reservados.</p>
+        <p className='contact__copyright'>2025 - Todos los derechos reservados.</p>
         
     </footer>
   )

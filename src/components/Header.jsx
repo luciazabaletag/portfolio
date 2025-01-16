@@ -39,7 +39,7 @@ const Header = () => {
               <div className="info__icons">
                 <a className="info__icons__a" href="https://github.com/luciazabaletag" target="_blank" rel="noreferrer" title="Github"><img className="info__icons__img" src="/img/github.svg" alt="github icon" /></a>
                 <a className="info__icons__a" href="https://www.linkedin.com/in/luciazabaletagirod" target="_blank" rel="noreferrer" title="LinkedIn"><img className="info__icons__img" src="/img/linkedin.svg" alt="linkedin icon" /></a>
-                <a className="info__icons__a info__icons__a-tooltip" onClick={handleCopy}>
+                <a href="#" className="info__icons__a info__icons__a-tooltip" onClick={handleCopy}>
                   <img className="info__icons__img" src="/img/email.svg" alt="email icon" />
                   <span id="copy-tooltip" className="info__icons__tooltip">luciazabaletag@gmail.com <span className="info__icons__tooltip-span">Click para copiarlo</span></span>
                   <span id="copy-text" className="info__icons__tooltip-copyOff">¡Email copiado!</span>
